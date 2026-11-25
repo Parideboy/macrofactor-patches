@@ -1,33 +1,7 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "patches": [
-    {
-      "name": "Stub App Check tokens",
-      "description": "Makes Firebase App Check's Play Integrity token fetch succeed with a throwaway token, so the app no longer reports \"Device integrity can't be verified\". The server still rejects the token, so AI food search keeps failing there. Client-side check only.",
-      "default": false,
-      "category": null,
-      "compatiblePackages": [
-        {
-          "packageName": "com.sbs.diet",
-          "name": "MacroFactor",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#000000",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "5.8.13",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
     {
       "name": "Unlock Premium (Root)",
       "description": "Unlocks all premium features. Requires root: the patched build must be mounted over the genuine Play-signed install — a re-signed sideload will not work.",
