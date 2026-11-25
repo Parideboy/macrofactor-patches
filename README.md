@@ -18,19 +18,18 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/Parideboy/macrofactor-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.0.1](https://github.com/Parideboy/macrofactor-patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
-<summary>📦 MacroFactor&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary>📦 MacroFactor&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 5.8.13 |
-| :---: |
+| 5.8.11 | 5.8.13 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Stub App Check tokens](#stub-app-check-tokens) | Makes Firebase App Check's Play Integrity token fetch succeed with a throwaway token, so the app no longer reports "Device integrity can't be verified". The server still rejects the token, so AI food search keeps failing there. Client-side check only. |  |
 | [Unlock Premium (Root)](#unlock-premium-root) | Unlocks all premium features. Requires root: the patched build must be mounted over the genuine Play-signed install — a re-signed sideload will not work. |  |
 
 </details>

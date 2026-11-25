@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/Parideboy/macrofactor-patches/compare/v1.0.0...v1.0.1) (2026-11-25)
+
+### 🐛 Bug Fixes
+
+* **macrofactor:** drop the App Check stub patch ([1055986](https://github.com/Parideboy/macrofactor-patches/commit/10559861f52c59f2a70f8be682bf93fef8f02256))
+
 ## 1.0.0 (2026-11-24)
 
 ### 🐛 Bug Fixes
