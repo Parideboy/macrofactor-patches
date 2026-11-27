@@ -29,9 +29,8 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      # The extension modules are Android libraries and :patches:buildAndroid builds them.
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      # ubuntu-latest images ship the Android SDK; the extension modules are Android libraries
+      # and :patches:buildAndroid builds them, so ANDROID_HOME is all the build needs.
 
       - name: Verify
         run: ./gradlew :patches:buildAndroid :extensions:macrofactor:test --no-daemon

@@ -39,8 +39,8 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      # ubuntu-latest ships the Android SDK; :patches:buildAndroid needs it for the extension
+      # modules, and ANDROID_HOME is already set on the runner.
 
       - name: Download APK
         run: |
