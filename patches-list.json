@@ -60,6 +60,32 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Unlock Pro",
+      "description": "Reports an active RevenueCat entitlement to the Flutter layer, unlocking the Pro surfaces the app computes on-device (Pro badge, paywall bypass, report customization). Pro work executed by Targapp's backend (AI report compilation, revision requests) still requires a real subscription.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "org.jbarrel.targapp",
+          "name": "Targapp",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#0D1B2A",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "4.10.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
     }
   ]
 }
